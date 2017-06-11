@@ -1,0 +1,76 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>sign in</title>
+</head>
+<style>
+	#img{
+		position:fixed;right:0; bottom:0;
+		min-width:100%; min-height:100%;
+		width:auto; height:auto; z-index:-100;
+		background：url(image/cutecat.jpg) no-repeat;
+		background-size:cover;
+	}
+	
+	.login_btn{
+		width:300px;
+		margin:40px auto 0 auto;
+	}
+	
+	.login_btn input{
+		width:100%;
+		margin:left;
+		padding:.5em 0;
+		-webkit-border-radius:.3em;
+		-moz-border-radius: .3em;
+		border:##F0FFF0 solid 1px;
+		background:#A066D3;
+		color:#fff;
+		font-size:17px;
+		font-weight:bolder;
+		letter-spacing:1em;
+	}
+	
+	.login_btn input:hover{
+		background:green;
+		}
+</style>
+<body align="center">
+<table align="right"  style="margin:300px 500px 300px 300px; background-color:#336; height:250px; border:0; opacity:0.8" >
+<tr>
+<th>	  
+<div clss="head">
+
+ <img src="image/cutecat.jpg" id="img"/>	
+</th>
+<tr align="right" valign="middle" >
+    	
+        <th height="75px" style="">	
+        <font color="#1E90FF">用户名：</font>
+        </th><th><input type="text" >
+        </th></tr>
+ <tr align="right" valign="middle">
+         <th height="75px">   
+         <font color="#1E90FF">密码：</font>
+         </th><th>
+         <input type="password" >
+         </th></tr>
+<tr align="right" valign="middle">        
+ <th colspan="2">   
+ <input type="submit" value="忘记密码？">
+<a href="register.html"> <input type="submit" value="点击注册" onclick="javascript:window.location.href='#'"></a>
+ </th></tr>
+ <tr align="center" valign="middle"> <th colspan="2">                <div class="login_btn">
+    	        <input type="submit" value="登陆" onclick="javascript:window.location.href='index.html'"> 
+                </div>
+            </th></tr>
+        
+
+</table>
+</body>
+</html>
+
+
